@@ -57,7 +57,7 @@ function Mobile() {
         <div className=' grid grid-cols-4 gap-4'>
           {data.map(item => {
             return (
-              <div className=' relative w-[50px] h-[50px] '>
+              <div className=' relative w-[50px] h-[50px] ' key={item.id}>
                 <Image key={item.id} src={item.img} alt='images' fill />
               </div>
             )
