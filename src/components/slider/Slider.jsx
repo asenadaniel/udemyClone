@@ -39,7 +39,7 @@ function Slider() {
             className=" md:object-cover object-cover"
           />
         </div>
-        <div className=' absolute bg-white w-[400px] text-black h-[240px] top-[70px] left-5 hidden md:block '>
+        <div className=' absolute bg-white w-[400px] text-black h-[200px] top-[70px] left-5 hidden md:block '>
           <div className=' mx-8'>
             <h1 className=' font-bold flex text-2xl py-3 leading-7'>Learning that gets you</h1>
             <p>Skills for your present and your future. Get started with us.</p>
@@ -47,7 +47,7 @@ function Slider() {
         </div>
 
       </div>
-      <div className='md:hidden px-[30px]'>
+      <div className='md:hidden px-[20px] lg:container lg:px-20 mx-auto  '>
         <Mobile />
       </div>
 
